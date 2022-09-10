@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "Hello World!";
+        return "This is my spring application!";
     }
 
     public static void main(String[] args) {
