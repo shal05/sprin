@@ -12,7 +12,7 @@ public class DemoApplication {
 
     @RequestMapping("/")
     String home() {
-        return "This is springboot application";
+        return "Hii Quarkus";
     }
 
     public static void main(String[] args) {
